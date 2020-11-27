@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 public class MainWindow extends JFrame{
 
 	private static final long serialVersionUID = 1L;
-	private static final NAME = "App prueba git";
+	private static final String NAME = "App prueba git";
 
 	public MainWindow() {
 		setTitle(NAME);
