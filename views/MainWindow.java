@@ -5,9 +5,10 @@ import javax.swing.JFrame;
 public class MainWindow extends JFrame{
 
 	private static final long serialVersionUID = 1L;
-	
+	private static final NAME = "App prueba git";
+
 	public MainWindow() {
-		setTitle("Hola Mundo");
+		setTitle(NAME);
 		setSize(500, 500);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
